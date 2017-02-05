@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="arcgis-android-sdk-10.2">
+    <CLASSES>
+      <root url="file://C:/apps/ArcGIS/SDKs/arcgis-android-sdk-10.2.5" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

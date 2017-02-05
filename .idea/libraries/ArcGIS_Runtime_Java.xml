@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ArcGIS_Runtime_Java">
+    <CLASSES>
+      <root url="jar://C:/apps/ArcGIS/SDKs/java10.2.4/sdk/jars/ArcGIS_Runtime_Java.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

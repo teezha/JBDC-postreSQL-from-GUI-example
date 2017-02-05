@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ConnDialogController">
+  <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="115.0" minWidth="15.0" prefWidth="15.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="240.0" minWidth="10.0" prefWidth="155.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="383.0" minWidth="10.0" prefWidth="311.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="15.0" prefWidth="15.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="8">
+         <children>
+            <Button mnemonicParsing="false" onAction="#testConnection" text="Test Connection" />
+            <Separator prefHeight="0.0" prefWidth="71.0" />
+            <Button mnemonicParsing="false" onAction="#cancel" text="Cancel" />
+         </children>
+      </HBox>
+      <Label text="Connectivity" GridPane.columnIndex="1">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label text="Vendor" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label text="Host or IP" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label text="Port" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label text="DB" GridPane.columnIndex="1" GridPane.rowIndex="4">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label text="JDBC" GridPane.columnIndex="1" GridPane.rowIndex="5">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label text="User" GridPane.columnIndex="1" GridPane.rowIndex="6">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label text="Pass" GridPane.columnIndex="1" GridPane.rowIndex="7">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtConnectivityType" GridPane.columnIndex="2" />
+      <TextField fx:id="txtDbmsVendorType" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <TextField fx:id="txtServerNameOrIP" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <TextField fx:id="txtServerPort" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <TextField fx:id="txtDefaultDatabase" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+      <TextField editable="false" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+      <TextField fx:id="txtUserName" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+      <PasswordField fx:id="pwdUserPassword" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+   </children>
+</GridPane>

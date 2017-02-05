@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="postgis-jdbc-2.1.0SVN">
+    <CLASSES>
+      <root url="jar://J:/GIST/8010/lib/postgres/postgis-jdbc-2.1.0SVN.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
